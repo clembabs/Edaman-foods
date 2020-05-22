@@ -1,0 +1,41 @@
+.App {
+  min-height: 100vh;
+  /*webgradients.com*/
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.header{
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-search{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.searchbutton {
+  background:  black;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  /*grid it*/
+  flex-wrap: wrap; 
+}
